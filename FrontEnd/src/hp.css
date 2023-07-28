@@ -1,0 +1,105 @@
+
+/* hp.css */
+
+.container {
+    background-image: url(/public/images/bg2.jpg);
+    min-height: 150vh;
+    width: 100%;
+    background-repeat: none;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Add responsive styles for the cards */
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 130px;
+  }
+  
+  /* Adjust card width for small screens */
+  @media (max-width: 600px) {
+    #cards {
+      margin-left: 10px;
+    }
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Adjust card width for medium screens */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    #cards {
+      margin-left: 80px;
+    }
+    .card {
+      width: 40%;
+      margin-right: 30px;
+    }
+  }
+  
+  /* Adjust card width for large screens */
+  @media (min-width: 1025px) {
+    #cards {
+      margin-left: 750px;
+    }
+  }
+  
+  /* Add responsive styles for the "About Us" section */
+  #about {
+    text-align: center;
+    margin-right: 30px;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  /* Adjust about block width for small screens */
+  @media (max-width: 600px) {
+    .about-container div {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Adjust about block width for medium screens */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .about-container div {
+      width: 40%;
+      margin-right: 30px;
+    }
+  }
+  
+  /* Adjust about block width for large screens */
+  @media (min-width: 1025px) {
+    .about-container div {
+      width: 30%;
+    }
+  }
+  
+  /* Add responsive styles for the footer */
+  /* Adjust footer styles for small screens */
+  @media (max-width: 600px) {
+    .footer {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  
+  /* Adjust footer styles for medium and large screens */
+  @media (min-width: 601px) {
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+  }
+  

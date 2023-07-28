@@ -1,0 +1,49 @@
+/* Styles for large screens */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="name"],
+  .login-form input[type="subject"],
+  .login-form input[type="message"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for smaller screens (e.g., tablets) */
+  @media (max-width: 768px) {
+    .login-form {
+      max-width: 90%;
+    }
+  }
+  
+  /* Styles for even smaller screens (e.g., mobile devices) */
+  @media (max-width: 480px) {
+    .login-form input[type="email"],
+    .login-form input[type="name"],
+    .login-form input[type="subject"],
+    .login-form input[type="message"] {
+      font-size: 14px;
+    }
+  }
+  
